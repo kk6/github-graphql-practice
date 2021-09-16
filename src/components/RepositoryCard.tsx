@@ -1,6 +1,14 @@
 import { Box, Heading, Link, Text, Icon } from "@chakra-ui/react";
 import { FaStar } from "react-icons/fa";
-export const RepositoryCard: React.VFC = ({
+
+interface Props {
+  name: string;
+  description: string;
+  url: string;
+  projectUrl: string;
+  stargazerCount: number;
+}
+export const RepositoryCard: React.VFC<Props> = ({
   name,
   description,
   url,
