@@ -1,0 +1,109 @@
+{
+  "data": {
+    "search": {
+      "repositoryCount": 517,
+      "edges": [
+        {
+          "node": {
+            "owner": {
+              "login": "freeCodeCamp"
+            },
+            "name": "freeCodeCamp",
+            "stargazerCount": 329828,
+            "url": "https://github.com/freeCodeCamp/freeCodeCamp"
+          }
+        },
+        {
+          "node": {
+            "owner": {
+              "login": "vuejs"
+            },
+            "name": "vue",
+            "stargazerCount": 188172,
+            "url": "https://github.com/vuejs/vue"
+          }
+        },
+        {
+          "node": {
+            "owner": {
+              "login": "facebook"
+            },
+            "name": "react",
+            "stargazerCount": 174713,
+            "url": "https://github.com/facebook/react"
+          }
+        },
+        {
+          "node": {
+            "owner": {
+              "login": "twbs"
+            },
+            "name": "bootstrap",
+            "stargazerCount": 152899,
+            "url": "https://github.com/twbs/bootstrap"
+          }
+        },
+        {
+          "node": {
+            "owner": {
+              "login": "trekhleb"
+            },
+            "name": "javascript-algorithms",
+            "stargazerCount": 119528,
+            "url": "https://github.com/trekhleb/javascript-algorithms"
+          }
+        },
+        {
+          "node": {
+            "owner": {
+              "login": "airbnb"
+            },
+            "name": "javascript",
+            "stargazerCount": 114212,
+            "url": "https://github.com/airbnb/javascript"
+          }
+        },
+        {
+          "node": {
+            "owner": {
+              "login": "d3"
+            },
+            "name": "d3",
+            "stargazerCount": 98177,
+            "url": "https://github.com/d3/d3"
+          }
+        },
+        {
+          "node": {
+            "owner": {
+              "login": "facebook"
+            },
+            "name": "react-native",
+            "stargazerCount": 97845,
+            "url": "https://github.com/facebook/react-native"
+          }
+        },
+        {
+          "node": {
+            "owner": {
+              "login": "facebook"
+            },
+            "name": "create-react-app",
+            "stargazerCount": 90249,
+            "url": "https://github.com/facebook/create-react-app"
+          }
+        },
+        {
+          "node": {
+            "owner": {
+              "login": "axios"
+            },
+            "name": "axios",
+            "stargazerCount": 87824,
+            "url": "https://github.com/axios/axios"
+          }
+        }
+      ]
+    }
+  }
+}
