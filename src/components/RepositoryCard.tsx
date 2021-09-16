@@ -1,20 +1,25 @@
-import { Box, Heading, Link, Text } from "@chakra-ui/react";
-
-export const RepositoryCard: React.VFC = () => {
+import { Box, Heading, Link, Text, Icon } from "@chakra-ui/react";
+import { FaStar } from "react-icons/fa";
+export const RepositoryCard: React.VFC = ({
+  name,
+  description,
+  url,
+  projectUrl,
+  stargazerCount,
+}) => {
   return (
     <Box borderWidth="1px" borderColor="blackAlpha.300" w="100%" p={4}>
       <Heading size="md">
-        <Link
-          color="blue.500"
-          href="https://github.com/django/django"
-          isExternal
-        >
-          <Text>django</Text>
+        <Link color="blue.500" href={url} isExternal>
+          <Text>{name}</Text>
         </Link>
       </Heading>
-      <Text>The Web framework for perfectionists with deadlines.</Text>
-      <Link color="blue.500" href="https://www.djangoproject.com" isExternal>
-        <Text>www.djangoproject.com</Text>
+      <Text>{description}</Text>
+      <Link color="blue.500" href={projectUrl} isExternal>
+        <Text>{projectUrl}</Text>
+        <Text>
+          <Icon as={FaStar} /> {stargazerCount}
+        </Text>
       </Link>
     </Box>
   );

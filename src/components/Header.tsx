@@ -6,7 +6,7 @@ export const Header: React.VFC = () => {
     <Flex bg="grey" color="white" align="center">
       <Icon as={FaGithub} boxSize={8} m={4} />
       <Heading as="h1" size="md">
-        Repository Star Ranking
+        Python Repo Star Ranking
       </Heading>
     </Flex>
   );
